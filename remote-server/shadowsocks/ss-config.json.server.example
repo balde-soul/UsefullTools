@@ -1,0 +1,17 @@
+{
+    "server":"45.76.105.116",
+    "server_port":45555,
+    "password":"renburugou",
+    "port_password":
+    {
+	"54444":"renburugou",
+	"18888":"renburugou",
+	"18889":"renburugou",
+	"45555":"renburugou"
+    },
+    "local_address":"127.0.0.1",
+    "local_port":1080,
+    "timeout":300,
+    "method":"rc4-md5",
+    "fast_open":false
+}

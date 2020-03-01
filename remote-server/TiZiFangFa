@@ -1,0 +1,10 @@
+首先使用shadowsocks.sh进行shadowsocks安装
+然后拷贝service到/etc/systemd/system中，启动自启动
+然后pip install supervisor安装该工具管理kcptun服务
+使用kcptun.sh进行kcptun下载与配置
+安装kcptun之后会在/usr/local/kcptun中生成相关配置文件
+listen项是kcptun的服务端口，客户端也是链接该端口
+targer是服务器ip:shadowsocks的加速端口
+key是kcptun的密钥，客户端需要输入
+其他默认则可
+然后在客户端配置使用kcptun
